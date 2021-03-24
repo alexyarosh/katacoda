@@ -25,10 +25,7 @@
         "title": "Modify the Schema of a Table",
         "text": "step5.md"
       }
-    ],
-    "finish": {
-         "text": "final.md"
-      }
+    ]
   },
   
   "environment": {
