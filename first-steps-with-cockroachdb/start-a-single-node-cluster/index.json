@@ -4,7 +4,6 @@
     "description": "Spin up a single-node cluster and access its DB Console.",
     "details": {
         "steps": [{
-            "title": "Install CockroachDB",
             "text": "step1.md",
             "code": "foreground.sh"
         }]
