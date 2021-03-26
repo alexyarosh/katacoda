@@ -17,6 +17,7 @@
     },
     "files": [],
     "environment": {
+        "hideintro" : true,
         "hidefinish": true,
         "uilayout": "terminal"
     },
