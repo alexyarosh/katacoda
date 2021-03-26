@@ -1,23 +1,11 @@
-In the same terminal, open the built-in SQL shell:
-
-```shell
-cockroach sql --insecure
-```{{execute T2}}
-
-View the available databases:
+In a same terminal, create a `movr` database:
 
 ```sql
-SHOW DATABASES;
+CREATE DATABASE movr;
 ```{{execute T2}}
 
-View the tables in the `movr` database:
+Set `movr` as the default database so you don't need to reference it explicitly in statements:
 
 ```sql
-SHOW TABLES FROM movr;
-```{{execute T2}}
-
-Run a `SELECT` statement to get 10 rows from the `movr.users` table:
-
-```sql
-SELECT * FROM movr.users LIMIT 10;
+SET DATABASE = movr;
 ```{{execute T2}}
