@@ -1,5 +1,5 @@
-In a new terminal, open the built-in SQL shell:
+In a new terminal, use the `cockroach workload` command to load a sample `movr` database:
 
 ```shell
-cockroach sql --insecure
+cockroach workload init movr
 ```{{execute T2}}
