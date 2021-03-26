@@ -1,28 +1,26 @@
 {
-  "noindex": true,
-  "title": "Start a Single-Node Cluster",
-  "description": "Start a Single-Node Cluster",
-  "details": {
-    "steps": [
-      {
-        "text": "step1.md",
-        "code": "foreground.sh"
-      }
-    ]
-  },
-  "environment": {
-    "hideintro": true,
-    "hidefinish": true,
-    "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "DB Console",
-        "port": 8080
-      }
-    ],
-    "uilayout": "terminal"
-  },
-  "backend": {
-    "imageid": "ubuntu:1804"
-  }
-} 
+    "noindex": true,
+    "title": "Run Commands Automatically",
+    "description": "Automatically run commands in the foreground and background when a scenario starts",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 3",
+                "code": "foreground.sh",
+                "text": "step3.md"
+            }
+        ],
+    },
+    "files": [],
+    "environment": {
+        "hidefinish": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
